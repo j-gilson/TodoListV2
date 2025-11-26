@@ -180,12 +180,6 @@ Dessa forma, a View fica **mínima**, e a lógica **isolada**.
 
 ---
 
-## Autor
-
-Projeto desenvolvido como atividade prática da disciplina **Programação para Dispositivos Móveis (PDM)**.
-
----
-
 ## Licença
 
 Este projeto pode ser usado livremente para fins acadêmicos e de aprendizado.
