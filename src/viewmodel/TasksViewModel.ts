@@ -22,7 +22,6 @@ export class TasksViewModel {
       completed: false
     });
 
-    // update local cache
     this.tasks = [newTask, ...this.tasks];
     return newTask;
   }
