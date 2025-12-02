@@ -1,13 +1,13 @@
-import { InMemoryTarefaRepositorio } from '../repositories/InMemoryTarefaRepositorio';
-import { TarefasViewModel } from '../viewmodels/TarefasViewModel';
-import { ITarefaRepositorio } from '../repositories/ITarefaRepositorio';
+import { InMemoryTaskRepository } from '../model/repositories/InMemoryTaskRepository';
+import { TasksViewModel } from '../viewmodel/TasksViewModel';
+import { ITaskRepository } from '../model/repositories/ITaskRepository';
 
-// Crie aqui a implementação concreta e a injete no ViewModel.
-// Se quiser trocar a implementação (por exemplo, para tests), faça aqui.
-const repositorio = new InMemoryTarefaRepositorio();
-export const tarefasViewModel = new TarefasViewModel(repositorio);
+// Create the concrete implementation here and inject it into the ViewModel.
+// If you want to swap the implementation (e.g., for tests), do it here.
+const repository = new InMemoryTaskRepository();
+export const tasksViewModel = new TasksViewModel(repository);
 
-// exporta factory se precisar instanciar outro VM com outro repo
-export function criarViewModelComRepositorio(repo: ITarefaRepositorio) {
-  return new TarefasViewModel(repo);
+// Export a factory in case you need to instantiate another VM with another repo
+export function createViewModelWithRepository(repo: ITaskRepository) {
+  return new TasksViewModel(repo);
 }
