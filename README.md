@@ -1,5 +1,21 @@
 # ToDo List MVVM – Aplicativo de Tarefas com Expo, React Native e Inversão de Dependências
 
+# INSTITUTO FEDERAL DO PIAUÍ-CAMPUS PIRIPIRI TECNÓLOGO EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS ENGENHARIA DE SOFTWARE III
+
+# Professor
+
+    Me.Mayllon Veras
+    
+# Componentes do Grupo
+
+# Nome/ Matrícula
+
+    Francisnilto dos Santos Nascimento/ 2024116TADS0012 
+    José Gilson Araújo Rebouças/ 2024116TADS0041
+    José Nilton Silva Lima/ 2024116TADS0033
+    Pedro Henrique Valentino Silva Sousa/ 2024116TADS0013
+    Rodrigo Cardoso de Farias/ 2024116TADS0038
+
 Este projeto é um aplicativo mobile desenvolvido com **Expo** utilizando **React Native** e **TypeScript**, seguindo rigorosamente a arquitetura **MVVM (Model-View-ViewModel)** e aplicando **Inversão de Dependências (DI)** para organização e desacoplamento entre as camadas.  
 Ele implementa um sistema simples de lista de tarefas (**ToDo List**) com três telas principais:
 
@@ -121,7 +137,7 @@ Permite visualizar e excluir.
 
 ### 1. Clone o repositório
 ```bash
-git clone https://github.com/SEU-USUARIO/ToDoMVVM.git
+git clone https://github.com/SEU-USUARIO/TodoListV2.git
 cd ToDoMVVM
 ```
 
